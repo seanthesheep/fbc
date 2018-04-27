@@ -1,0 +1,7 @@
+<h1>Fairhope Brewing Company</h1>
+
+<% @beer.each do |beer| %>
+    <p><%= beer.name %></p>
+    <p><%= beer.description %></p>
+    <hr/>
+<% end %>

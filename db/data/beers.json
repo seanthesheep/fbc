@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Fairhope 51",
+    "description": "Fairhope No. 51 is a classic American pale ale, brewed with a combination of American-made Falconer's Flight hops and German hops. Named for being the 51st recipe entry into head brewer Dan's beer notebook, this pale ale is packed with hop flavor but not overly bitter. Though this crisp, flavorful beer was 51 in Dan's notebook, we expect it to be your top choice for a pale throughout Lower Alabama.",
+    "style": "American Pale Ale",
+    "abv": 5.9,
+    "ibu": 57,
+    "og": 12.9
+  },
+  {
+    "name": "I Drink Therefore I Amber",
+    "description": "A smooth, malt-forward beer that's as rich in flavor as it is in color. Well balanced with some light caramel and toasted flavor provided from the variety of grains used to make the beer.",
+    "style": "American Amber",
+    "abv": 5.4,
+    "ibu": null,
+    "og": null
+  },
+  {
+    "name": "(Take The)Causeway IPA",
+    "description":"Copious amounts of Citra and Simcoe hops are used throughout the brewing process in this American India Pale Ale. From first-wort to bittering, flavor, aroma and dry hops, an artful combination of two extraordinary hops leads to an explosively hoppy finish on the palate",
+    "style": "American IPA",
+    "abv": 8.2,
+    "ibu": 77,
+    "og": 16.9
+  }
+]
