@@ -22,5 +22,77 @@
     "abv": 8.2,
     "ibu": 77,
     "og": 16.9
+  },
+  {
+    "name": "Everyday Ale",
+    "description":"Fairhope Everyday Ale is made to pair with those gorgeous Eastern Shore days along the bay. Handcrafted with British Maris Otter malt and Kent Golding hops, this well-balanced English-inspired blonde ale packs a lot of flavor into a beer without a lot of alcohol.",
+    "style": "American Blonde",
+    "abv": 3.8,
+    "ibu": 8,
+    "og": 10
+  },
+  {
+    "name": "Rescue Dog Red Ale",
+    "description":"Our Spring seasonal is dedicated to our dogs, all of whom were rescued from shelters. The American Imperial Red Ale rocks a massive hop character to match its full-bodied malt bill. Plus $1 of each pour is donated to the Baldwin County Humane Society!",
+    "style": "Imperial American Red",
+    "abv": 8.0,
+    "ibu": 76,
+    "og": 1.078
+  },
+  {
+    "name": "Judge Roy Bean",
+    "description":"Judge Roy Bean is an American stout brewed in collaboration with our good friends at Fairhope Roasting Company, whose House Blend is cold-brewed and added to this already decadent brew. This beer is our tribute to the beloved Eastern Shore landmark, and much like the old days at the Bean, we think you'll love spending your holiday with Judge Roy Bean. ",
+    "style": "American Stout",
+    "abv": 5,
+    "ibu": null,
+    "og": null
+  },
+  {
+    "name": "Along Came A Cider",
+    "description":"We are always experimenting with our hard apple cider, and this one turned our really nicely. Our current iteration of Along Came A Cider was made with strawberry and lime. It tastes like you would expect it to!",
+    "style": "Cider",
+    "abv": 6.4,
+    "ibu": null,
+    "og": null
+  },
+  {
+    "name": "Tarts and Crafts",
+    "description":"We started with our base berliner weisse and added a heavy dose of tart cherry. The result is a fantastically tart, drinkable berliner.",
+    "style": "Berliner (weisse)",
+    "abv": 4.5,
+    "ibu": null,
+    "og": null
+  },
+  {
+    "name": "Vitamin C",
+    "description":"This beer was Gil's first ever brew on our 10-bbl system last summer, and now it's back! This pale ale is loaded up with some 'C' hops like Citra and Chinook, then is given the perfect citrus touch with a large amount of orange and grapefruit zest. It's still hot down in Lower Alabama, and this is a great refreshing beer!",
+    "style": "American Pale Ale",
+    "abv": 5.3,
+    "ibu": null,
+    "og": null
+  },
+  {
+    "name": "Cheap Sunglasses",
+    "description":"This beer was Gil's first ever brew on our 10-bbl system last summer, and now it's back! This pale ale is loaded up with some 'C' hops like Citra and Chinook, then is given the perfect citrus touch with a large amount of orange and grapefruit zest. It's still hot down in Lower Alabama, and this is a great refreshing beer!",
+    "style": "Kolsch",
+    "abv": 4.4,
+    "ibu": null,
+    "og": null
+  },
+  {
+    "name": "Dauphin",
+    "description":"If you liked De La Mare, then you are going to love Dauphin. This hazy IPA is packed full of the juicy hop flavor you are looking for without being overly bitter. We loaded this beer up with obscene amounts of Citra, Belma, Mandarina, and Idaho 7 hops. The result is fantastic.",
+    "style": "Hazy IPA",
+    "abv": 7.0,
+    "ibu": null,
+    "og": null
+  },
+  {
+    "name": "Liter of Cola",
+    "description":"This Belgian style saison is a very refreshing farmhouse ale with clove and pepper notes in the finish. And the name honors Super Troopers hero Farva and his hopes to one day buy a million dollar car.",
+    "style": "Belgian Saison",
+    "abv": 6.2,
+    "ibu": null,
+    "og": null
   }
 ]

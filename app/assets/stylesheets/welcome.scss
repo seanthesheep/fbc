@@ -1,0 +1,33 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.navbar-brand{
+    max-width: 50%;
+    img {
+        max-width: 100%;
+    }
+}
+
+.heading{
+    min-height: 100vh;
+    width: 100vw;
+    background: rgba(0,0,0,0.5);
+    h1 {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+        font-size: 4em;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 100vh;
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 490px){
+    .heading{
+        h1{
+            font-size: 2em;
+        }
+    }
+}
