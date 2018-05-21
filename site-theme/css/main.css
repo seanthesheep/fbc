@@ -341,6 +341,10 @@ aside {
 .branding-wrapper .branding-logo > img .mobile {
   display: none;
 }
+.branding-logo .mobile {
+  display: none;
+  margin: 0;
+}
 .page-title {
   color: #ffffff;
   padding: 85px 0 0 0;
@@ -800,6 +804,15 @@ aside {
 @media screen and (max-width: 600px) {
   .cb-slideshow li div h3 {
     font-size: 80px;
+  }
+}
+@media (max-width: 480px) {
+  .cb-slideshow li div h3 {
+    font-size: 40px;
+    line-height: 30px;
+  }
+  .cb-slideshow li div p {
+    font-size: 15px;
   }
 }
 /*------------------------------------------------------------------
@@ -2740,6 +2753,7 @@ figure:not(.format-video):hover::after,
   }
   .branding-logo .desktop {
     display: none;
+    margin: 0;
   }
   .branding-logo .mobile {
     display: block;
@@ -2886,6 +2900,29 @@ figure:not(.format-video):hover::after,
   }
   .btn-centered {
     margin: 25px auto 0;
+  }
+  .branding-wrapper {
+    left: 50%;
+    position: absolute;
+    top: 0;
+    z-index: 19;
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+  }
+  .branding-wrapper .branding-logo > img {
+    max-width: 80px;
+    margin: 20px 0 0 0;
+    -webkit-transition: all 0.25s linear;
+    -moz-transition: all 0.25s linear;
+    -ms-transition: all 0.25s linear;
+    -o-transition: all 0.25s linear;
+    transition: all 0.25s linear;
+  }
+  .branding-wrapper .branding-logo > img .mobile {
+    display: none;
   }
 }
 /*------------------------------------------------------------------

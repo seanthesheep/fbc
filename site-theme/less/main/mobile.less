@@ -228,4 +228,20 @@
     .btn-centered {
         margin: 25px auto 0;
     }
+    .branding-wrapper {
+        left: 50%;
+        position: absolute;
+        top: 0;
+        z-index: 19;
+        .translate(-50%, 0);
+    
+        & .branding-logo > img {
+            max-width: 80px;
+            margin: 20px 0 0 0;
+            .transition-all;
+            .mobile {
+                display: none;
+            }
+        }
+    }
 }
