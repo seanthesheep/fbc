@@ -8,6 +8,9 @@ jQuery(document).ready(function() {
 	"use strict";
 	var $ = jQuery;
 	
+	const lat = 30.5160877;
+	const lng = -87.88492930000001;
+
 	/*************************************************************
 	 * Google Maps - General
 	 * https://github.com/hpneo/gmaps
@@ -22,12 +25,12 @@ jQuery(document).ready(function() {
 	if ($('.home-gmap').length) {
 		var map = new GMaps({
 			el: '.home-gmap',
-			lat: 51.5073509,
-			lng: -0.12775829999998223,
+			lat: lat,
+			lng: lng,
 			hideInfoWindows: true,
 			navigationControl: false,
 			mapTypeControl: false,
-			zoom: 11,
+			zoom: 14,
 			zoomControl: true,
 			streetViewControl: false,
 			disableDoubleClickZoom: true,
@@ -122,85 +125,85 @@ jQuery(document).ready(function() {
 
 		// Map Markers
 		map.addMarker({
-			lat: 51.5117321,
-			lng: -0.12326970000003712,
+			lat: lat,
+			lng: lng,
 			icon: "./img/icon-map.png",
 			infoWindow: {
 				content: '<strong>Location One</strong><br/>Covent Garden<br/>London<br/><a href="javascript:void(0);">Visit Website</a>'
 			}
 		});
 
-		map.addMarker({
-			lat: 51.4911875,
-			lng: -0.22373149999998532,
-			icon: "./img/icon-map.png",
-			infoWindow: {
-				content: '<strong>Location Two</strong><br/>Hammersmith<br/>London<br/><a href="javascript:void(0);">Visit Website</a>'
-			}
-		});
+		// map.addMarker({
+		// 	lat: 51.4911875,
+		// 	lng: -0.22373149999998532,
+		// 	icon: "./img/icon-map.png",
+		// 	infoWindow: {
+		// 		content: '<strong>Location Two</strong><br/>Hammersmith<br/>London<br/><a href="javascript:void(0);">Visit Website</a>'
+		// 	}
+		// });
 
-		map.addMarker({
-			lat: 51.485093,
-			lng: -0.17493600000000242,
-			icon: "./img/icon-map.png",
-			infoWindow: {
-				content: '<strong>Location Three</strong><br/>Chelsea<br/>London<br/><a href="javascript:void(0);">Visit Website</a>'
-			}
-		});
+		// map.addMarker({
+		// 	lat: 51.485093,
+		// 	lng: -0.17493600000000242,
+		// 	icon: "./img/icon-map.png",
+		// 	infoWindow: {
+		// 		content: '<strong>Location Three</strong><br/>Chelsea<br/>London<br/><a href="javascript:void(0);">Visit Website</a>'
+		// 	}
+		// });
 
-		map.addMarker({
-			lat: 51.52849,
-			lng: -0.08472800000004099,
-			icon: "./img/icon-map.png",
-			infoWindow: {
-				content: '<strong>Location Four</strong><br/>Lewisham<br/>London<br/><a href="javascript:void(0);">Visit Website</a>'
-			}
-		});
+		// map.addMarker({
+		// 	lat: 51.52849,
+		// 	lng: -0.08472800000004099,
+		// 	icon: "./img/icon-map.png",
+		// 	infoWindow: {
+		// 		content: '<strong>Location Four</strong><br/>Lewisham<br/>London<br/><a href="javascript:void(0);">Visit Website</a>'
+		// 	}
+		// });
 
-		map.addMarker({
-			lat: 51.4612794,
-			lng: -0.11561480000000302,
-			icon: "./img/icon-map.png",
-			infoWindow: {
-				content: '<strong>Location Five</strong><br/>Brixton<br/>London<br/><a href="javascript:void(0);">Visit Website</a>'
-			}
-		});
+		// map.addMarker({
+		// 	lat: 51.4612794,
+		// 	lng: -0.11561480000000302,
+		// 	icon: "./img/icon-map.png",
+		// 	infoWindow: {
+		// 		content: '<strong>Location Five</strong><br/>Brixton<br/>London<br/><a href="javascript:void(0);">Visit Website</a>'
+		// 	}
+		// });
 
-		map.addMarker({
-			lat: 51.46647699999999,
-			lng: 0.025918999999930747,
-			icon: "./img/icon-map.png",
-			infoWindow: {
-				content: '<strong>Location Six</strong><br/>Kidsbrooke<br/>London<br/><a href="javascript:void(0);">Visit Website</a>'
-			}
-		});
+		// map.addMarker({
+		// 	lat: 51.46647699999999,
+		// 	lng: 0.025918999999930747,
+		// 	icon: "./img/icon-map.png",
+		// 	infoWindow: {
+		// 		content: '<strong>Location Six</strong><br/>Kidsbrooke<br/>London<br/><a href="javascript:void(0);">Visit Website</a>'
+		// 	}
+		// });
 
-		map.addMarker({
-			lat: 51.5501741,
-			lng: -0.003371000000015556,
-			icon: "./img/icon-map.png",
-			infoWindow: {
-				content: '<strong>Location Seven</strong><br/>Stratford<br/>London<br/><a href="javascript:void(0);">Visit Website</a>'
-			}
-		});
+		// map.addMarker({
+		// 	lat: 51.5501741,
+		// 	lng: -0.003371000000015556,
+		// 	icon: "./img/icon-map.png",
+		// 	infoWindow: {
+		// 		content: '<strong>Location Seven</strong><br/>Stratford<br/>London<br/><a href="javascript:void(0);">Visit Website</a>'
+		// 	}
+		// });
 
-		map.addMarker({
-			lat: 51.550501,
-			lng: -0.3048409000000447,
-			icon: "./img/icon-map.png",
-			infoWindow: {
-				content: '<strong>Location Eight</strong><br/>Wembley<br/>London<br/><a href="javascript:void(0);">Visit Website</a>'
-			}
-		});
+		// map.addMarker({
+		// 	lat: 51.550501,
+		// 	lng: -0.3048409000000447,
+		// 	icon: "./img/icon-map.png",
+		// 	infoWindow: {
+		// 		content: '<strong>Location Eight</strong><br/>Wembley<br/>London<br/><a href="javascript:void(0);">Visit Website</a>'
+		// 	}
+		// });
 
-		map.addMarker({
-			lat: 51.44458100000001,
-			lng: -0.3352459999999837,
-			icon: "./img/icon-map.png",
-			infoWindow: {
-				content: '<strong>Location Nine</strong><br/>Twickenham<br/>London<br/><a href="javascript:void(0);">Visit Website</a>'
-			}
-		});
+		// map.addMarker({
+		// 	lat: 51.44458100000001,
+		// 	lng: -0.3352459999999837,
+		// 	icon: "./img/icon-map.png",
+		// 	infoWindow: {
+		// 		content: '<strong>Location Nine</strong><br/>Twickenham<br/>London<br/><a href="javascript:void(0);">Visit Website</a>'
+		// 	}
+		// });
 
 	}
 
@@ -218,8 +221,8 @@ jQuery(document).ready(function() {
 	if ($('.contact-gmap').length) {
 		var map = new GMaps({
 			el: '.contact-gmap',
-			lat: 51.5117321,
-			lng: -0.12326970000003712,
+			lat: lat,
+			lng: lng,
 			hideInfoWindows: true,
 			navigationControl: false,
 			mapTypeControl: false,
@@ -318,8 +321,8 @@ jQuery(document).ready(function() {
 
 		// Map Markers
 		map.addMarker({
-			lat: 51.5117321,
-			lng: -0.12326970000003712,
+			lat: lat,
+			lng: lng,
 			icon: "./img/icon-map.png",
 			infoWindow: {
 				content: '<strong>Location One</strong><br/>Covent Garden<br/>London<br/><i class="fa fa-phone"></i> 00000 000000'
@@ -345,8 +348,8 @@ jQuery(document).ready(function() {
 		// Load map on tab click
 		var map = new GMaps({
 			el: '#gmap-event-loc1',
-			lat: 51.5117321,
-			lng: -0.12326970000003712,
+			lat: lat,
+			lng: lng,
 			hideInfoWindows: true,
 			navigationControl: false,
 			mapTypeControl: false,
@@ -445,8 +448,8 @@ jQuery(document).ready(function() {
 
 		// Map Markers
 		map.addMarker({
-			lat: 51.5117321,
-			lng: -0.12326970000003712,
+			lat: lat,
+			lng: lng,
 			icon: "./img/icon-map.png",
 			infoWindow: {
 				content: '<strong>Event Location</strong><br/>Covent Garden<br/>London'
@@ -463,8 +466,8 @@ jQuery(document).ready(function() {
 		// Load map on tab click
 		var map = new GMaps({
 			el: '#gmap-event-loc2',
-			lat: 51.4911875,
-			lng: -0.22373149999998532,
+			lat: lat,
+			lng: lng,
 			hideInfoWindows: true,
 			navigationControl: false,
 			mapTypeControl: false,
@@ -563,8 +566,8 @@ jQuery(document).ready(function() {
 
 		// Map Markers
 		map.addMarker({
-			lat: 51.4911875,
-			lng: -0.22373149999998532,
+			lat: lat,
+			lng: lng,
 			icon: "./img/icon-map.png",
 			infoWindow: {
 				content: '<strong>Event Two</strong><br/>Hammersmith<br/>London'
@@ -581,8 +584,8 @@ jQuery(document).ready(function() {
 		// Load map on tab click
 		var map = new GMaps({
 			el: '#gmap-event-loc3',
-			lat: 51.485093,
-			lng: -0.17493600000000242,
+			lat: lat,
+			lng: lng,
 			hideInfoWindows: true,
 			navigationControl: false,
 			mapTypeControl: false,
@@ -681,8 +684,8 @@ jQuery(document).ready(function() {
 
 		// Map Markers
 		map.addMarker({
-			lat: 51.485093,
-			lng: -0.17493600000000242,
+			lat: lat,
+			lng: lng,
 			icon: "./img/icon-map.png",
 			infoWindow: {
 				content: '<strong>Event Three</strong><br/>Chelsea<br/>London'
