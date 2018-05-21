@@ -92,8 +92,8 @@ Version 1.0.1
   /* Slider inner content */
   .slider h2 {
       color: #FFF;
-      font-weight: 900;
-      font-size: 45px;
+      font-weight: 500;
+      font-size: 75px;
       line-height: 120%;
       opacity: 0;
       text-transform: none;
@@ -224,7 +224,7 @@ Version 1.0.1
   
 @media only screen and (max-width: 767px) {
   .slider h2 {
-      font-size: 20px;
+      font-size: 30px;
   }
   .slider > div {
       padding: 0 2%
