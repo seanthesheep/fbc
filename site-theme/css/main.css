@@ -338,6 +338,9 @@ aside {
   -o-transition: all 0.25s linear;
   transition: all 0.25s linear;
 }
+.branding-wrapper .branding-logo > img .mobile {
+  display: none;
+}
 .page-title {
   color: #ffffff;
   padding: 85px 0 0 0;
@@ -2734,6 +2737,12 @@ figure:not(.format-video):hover::after,
   }
   .topbar-hero .branding-logo {
     margin: 0 auto 50px;
+  }
+  .branding-logo .desktop {
+    display: none;
+  }
+  .branding-logo .mobile {
+    display: block;
   }
   .features-grid figure {
     min-height: 267px;
