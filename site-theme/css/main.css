@@ -55,7 +55,6 @@ Version 1.0.1
       align-items: center;
       justify-content: center;
       align-content: center;
-      
       -webkit-transition: -webkit-transform 1600ms;
       transition: -webkit-transform 1600ms, transform 1600ms;
       -webkit-transform: scale(1);
