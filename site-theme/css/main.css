@@ -96,6 +96,7 @@ Version 1.0.1
       font-size: 45px;
       line-height: 120%;
       opacity: 0;
+      text-transform: none;
       -webkit-transform: translateX(500px);
       transform: translateX(500px);
   }
